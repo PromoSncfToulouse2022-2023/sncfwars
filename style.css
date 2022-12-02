@@ -1,0 +1,27 @@
+html {
+    width: 100vw;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+    font-family: sans-serif;
+    color: #EEE;
+}
+
+.bg {
+    background-color: #45474D;
+}
+
+/* media queries */
+@media (min-width: 600px) {
+    .container {
+        margin: 0 auto;
+        width: 400px;
+    }
+}
