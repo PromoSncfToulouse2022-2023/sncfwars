@@ -1,8 +1,9 @@
 html {
     width: 100vw;
 }
+
 body {
-    width: 100%;
+    width: 100vw;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -24,4 +25,21 @@ body {
         margin: 0 auto;
         width: 400px;
     }
+}
+
+summary {
+    display: block;
+    cursor: pointer;
+    outline: 0;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+.tree-nav__item {
+    display: block;
+    white-space: nowrap;
+    color: #ccc;
+    position: relative;
 }
